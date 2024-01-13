@@ -543,16 +543,16 @@
     <script src="assets/js/main.js"></script>
     <script src="index.js"></script>
     <script>
-      var events = [
+      let events = [
   "Literature", "Performing Arts", "Visual Arts", "Mass Media", "Sports event", "Personality Contest", "DJ War"
 ];
 
-var subEvents = [
+let subEvents = [
   ["Debate", "Open Mic"], ["Instrumental", "Singing", "Dancing", "Drama", "Rap Battle"], ["Rangoli Making", "Canvas Painting"], ["Reel Making", "Photography"],
 ];
 
 
-var eventCard = document.getElementById("event-card");
+let eventCard = document.getElementById("event-card");
 
 redirectToEvent = (i) => {
   localStorage.setItem("event", i);
@@ -564,7 +564,7 @@ redirectToEvent = (i) => {
 
 if (window.location.pathname === "/index.html") {
 
-  for (var i = 0; i < events.length; i++) {
+  for (let i = 0; i < events.length; i++) {
     eventCard.innerHTML += `<div class="col-12 col-md-3 gy-5 container" style="cursor:pointer">
     <article class="sigma_post style-12">
       <div class="sigma_post-thumb">
@@ -591,8 +591,8 @@ if (window.location.pathname === "/index.html") {
       </div>
     </article>
   </div>`;
-    var card = document.getElementById(`card${i}`);
-    // for (var j = 0; j < subEvents[i].length; j++) {
+    let card = document.getElementById(`card${i}`);
+    // for (let j = 0; j < subEvents[i].length; j++) {
     //   card.innerHTML += `<li class=" col-12 col-md-4" onclick=""> ${j + 1}.${subEvents[i][j]}</a></li>`;
     // }
 
@@ -602,14 +602,14 @@ if (window.location.pathname === "/index.html") {
 }
 
 if (window.location.pathname === "/event_screen.html") {
-  var event = localStorage.getItem("event");
-  var e = document.getElementsByClassName("event-name")[0];
+  let event = localStorage.getItem("event");
+  let e = document.getElementsByClassName("event-name")[0];
   e.innerHTML = `<h3 class="title">${events[event]} <span class="primary-color">Events</span>
   </h3>` ;
 
-  var subEvent = document.getElementsByClassName("sub-events")[0];
+  let subEvent = document.getElementsByClassName("sub-events")[0];
 
-  for (var i = 0; i < subEvents[event].length; i++) {
+  for (let i = 0; i < subEvents[event].length; i++) {
     subEvent.innerHTML += `<div class="col-12 col-md-3 gy-5">
     <article class="sigma_post style-12">
       <div class="sigma_post-thumb">
