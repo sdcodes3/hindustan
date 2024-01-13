@@ -562,7 +562,6 @@ redirectToEvent = (i) => {
 }
 
 
-if (window.location.pathname === "/index.html") {
 
   for (let i = 0; i < events.length; i++) {
     eventCard.innerHTML += `<div class="col-12 col-md-3 gy-5 container" style="cursor:pointer">
@@ -591,15 +590,9 @@ if (window.location.pathname === "/index.html") {
       </div>
     </article>
   </div>`;
-    let card = document.getElementById(`card${i}`);
-    // for (let j = 0; j < subEvents[i].length; j++) {
-    //   card.innerHTML += `<li class=" col-12 col-md-4" onclick=""> ${j + 1}.${subEvents[i][j]}</a></li>`;
-    // }
 
   }
 
-
-}
 
 if (window.location.pathname === "/event_screen.html") {
   let event = localStorage.getItem("event");
