@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("flaticon03db.ttf?94b1696675ee1e9272544bc6395e415b") format("truetype"),
+url("flaticon03db.woff?94b1696675ee1e9272544bc6395e415b") format("woff"),
+url("flaticon03db.woff2?94b1696675ee1e9272544bc6395e415b") format("woff2"),
+url("flaticon03db.eot?94b1696675ee1e9272544bc6395e415b#iefix") format("embedded-opentype"),
+url("flaticon03db.svg?94b1696675ee1e9272544bc6395e415b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-monkey:before {
+    content: "\f101";
+}
+.flaticon-spicies:before {
+    content: "\f102";
+}
+.flaticon-cricket:before {
+    content: "\f103";
+}
+.flaticon-palm-tree:before {
+    content: "\f104";
+}
+.flaticon-spice:before {
+    content: "\f105";
+}
+.flaticon-india:before {
+    content: "\f106";
+}
+.flaticon-islam:before {
+    content: "\f107";
+}
+.flaticon-peacock:before {
+    content: "\f108";
+}
+.flaticon-elephant:before {
+    content: "\f109";
+}
+.flaticon-tiger:before {
+    content: "\f10a";
+}
+.flaticon-tea:before {
+    content: "\f10b";
+}
+.flaticon-diwali:before {
+    content: "\f10c";
+}
+.flaticon-shisha:before {
+    content: "\f10d";
+}
+.flaticon-hyderabad-charminar:before {
+    content: "\f10e";
+}
+.flaticon-orchid:before {
+    content: "\f10f";
+}
+.flaticon-tuk-tuk:before {
+    content: "\f110";
+}
+.flaticon-curry:before {
+    content: "\f111";
+}
+.flaticon-samosa:before {
+    content: "\f112";
+}
+.flaticon-cobra:before {
+    content: "\f113";
+}
+.flaticon-ganesha:before {
+    content: "\f114";
+}
+.flaticon-om:before {
+    content: "\f115";
+}
+.flaticon-red-fort:before {
+    content: "\f116";
+}
+.flaticon-taj-mahal:before {
+    content: "\f117";
+}
+.flaticon-gate-of-india:before {
+    content: "\f118";
+}
+.flaticon-woman:before {
+    content: "\f119";
+}
+.flaticon-drum:before {
+    content: "\f11a";
+}
+.flaticon-tea-1:before {
+    content: "\f11b";
+}
+.flaticon-lotus-temple:before {
+    content: "\f11c";
+}
+.flaticon-lotus:before {
+    content: "\f11d";
+}
+.flaticon-lantern:before {
+    content: "\f11e";
+}
+.flaticon-harmandir-sahib:before {
+    content: "\f11f";
+}
+.flaticon-flute:before {
+    content: "\f120";
+}
+.flaticon-india-1:before {
+    content: "\f121";
+}
+.flaticon-jewellery:before {
+    content: "\f122";
+}
+.flaticon-quran:before {
+    content: "\f123";
+}
+.flaticon-phone:before {
+    content: "\f124";
+}
+.flaticon-mailing:before {
+    content: "\f125";
+}
+.flaticon-location:before {
+    content: "\f126";
+}
