@@ -563,6 +563,7 @@ redirectToEvent = (i) => {
 
 
 
+
   for (let i = 0; i < events.length; i++) {
     eventCard.innerHTML += `<div class="col-12 col-md-3 gy-5 container" style="cursor:pointer">
     <article class="sigma_post style-12">
@@ -594,7 +595,9 @@ redirectToEvent = (i) => {
   }
 
 
-if (window.location.pathname === "/event_screen.html") {
+
+
+
   let event = localStorage.getItem("event");
   let e = document.getElementsByClassName("event-name")[0];
   e.innerHTML = `<h3 class="title">${events[event]} <span class="primary-color">Events</span>
@@ -637,7 +640,7 @@ if (window.location.pathname === "/event_screen.html") {
   }
 
 
-}
+
 
 
     </script>
